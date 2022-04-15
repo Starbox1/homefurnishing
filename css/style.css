@@ -184,8 +184,8 @@ h6{margin: 84px 0px 0px 80px; font-size: 14px; color: #515d0e; }
 .section6{width: 1320px; margin: auto; height: 1232px; text-align: center;}
 .section6_1{ font-size: 17px; font-weight: bold; padding-top: 95px; }
 .section6_2{margin: 18px 0px 62px 0px;}
-.section6 ul{text-align: center; box-sizing: border-box;}
-.section6 li{float: left;}
+.section6 ul{text-align: center; box-sizing: border-box; margin-left: 121.5px; }
+.section6 li{float: left; }
 
 .section6 li img{box-shadow: -10px 10px 43px #000000 ;}
 
