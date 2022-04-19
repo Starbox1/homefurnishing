@@ -45,10 +45,12 @@ body {
   font-size: 16px;
   font-weight: bold;
   color: #333333;
-  
+
 }
-.gnb li a:hover{
-  color: #7b664d;}
+
+.gnb li a:hover {
+  color: #7b664d;
+}
 
 .gnb1 {
   background-color: #7b664d;
@@ -65,42 +67,77 @@ body {
   background-color: #000000;
   position: absolute;
   width: 100%;
-  left:0;
+
+  left: 0;
   display: none;
-  
+
+
 }
 
 .sub div {
   width: 1320px;
   margin: auto;
-  }
+}
 
 .sub ul {
-  
+
   float: left;
   text-align: center;
+
 }
-.sub ul a{
+
+
+.sub ul a {
   color: #ffffff;
   display: block;
-  
   font-size: 15px;
+
+
 }
 
-.sub ul:nth-child(1){
-  margin-left: 180px;}
-  .gnb li:hover .sub{
-    display: block;
+.sub ul:nth-child(1) {
+  margin-left: 180px;
 }
 
+.gnb li:hover .sub {
+  display: block;
+}
 
 
 
 
 #banner {
-  background: url(../images/mainlogo.png) no-repeat center;
+  width: 100%;
   height: 629px;
+  background: url(../images/mainlogo.png) no-repeat center top;
+  background-size: cover;
+  color: #fff;
+  animation: banner 10s infinite linear;
 }
+
+@keyframes banner {
+  0% {
+    background: url(../images/mainlogo.png) no-repeat center top;
+    background-size: cover;
+  }
+
+  33.3% {
+    background: url(../images/mainlogo1.png) no-repeat center top;
+    background-size: cover;
+  }
+
+  66.6% {
+    background: url(../images/mainlogo2.png) no-repeat center top;
+    background-size: cover;
+  }
+
+  100% {
+    background: url(../images/mainlogo.png) no-repeat center top;
+    background-size: cover;
+  }
+}
+
+
 
 .banner_0 {
   width: 1320px;
