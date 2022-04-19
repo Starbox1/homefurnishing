@@ -86,9 +86,7 @@ body {
   
   font-size: 15px;
 }
-.sub ul a:hover{
-  text-decoration: underline;
-}
+
 .sub ul:nth-child(1){
   margin-left: 180px;}
   .gnb li:hover .sub{
