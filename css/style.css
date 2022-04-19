@@ -47,6 +47,8 @@ body {
   color: #333333;
   
 }
+.gnb li a:hover{
+  color: #7b664d;}
 
 .gnb1 {
   background-color: #7b664d;
